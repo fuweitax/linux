@@ -63,6 +63,7 @@
 #include <sound/rawmidi.h>
 #include <linux/delay.h>
 
+#define JUST_FOR_TEST
 /*
  *      globals
  */
