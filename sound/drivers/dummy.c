@@ -1179,6 +1179,7 @@ static void snd_dummy_unregister_all(void)
 	platform_driver_unregister(&snd_dummy_driver);
 	free_fake_buffer();
 }
+#define JUST_FOR_TEST
 
 static int __init alsa_card_dummy_init(void)
 {
