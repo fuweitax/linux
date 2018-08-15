@@ -1291,6 +1291,7 @@ static int __init alsa_card_loopback_init(void)
 	}
 	return 0;
 }
+#define JUST_FOR_TEST
 
 static void __exit alsa_card_loopback_exit(void)
 {
