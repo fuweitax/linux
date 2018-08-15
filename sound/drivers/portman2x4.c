@@ -49,6 +49,8 @@
 #include <sound/rawmidi.h>
 #include <sound/control.h>
 
+#define JUST_FOR_TEST
+
 #define CARD_NAME "Portman 2x4"
 #define DRIVER_NAME "portman"
 #define PLATFORM_DRIVER "snd_portman2x4"
