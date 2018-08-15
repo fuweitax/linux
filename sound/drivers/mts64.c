@@ -33,6 +33,7 @@
 #define CARD_NAME "Miditerminal 4140"
 #define DRIVER_NAME "MTS64"
 #define PLATFORM_DRIVER "snd_mts64"
+#define JUST_FOR_TEST
 
 static int index[SNDRV_CARDS]  = SNDRV_DEFAULT_IDX;
 static char *id[SNDRV_CARDS]   = SNDRV_DEFAULT_STR;
