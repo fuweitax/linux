@@ -49,6 +49,7 @@ MODULE_DESCRIPTION("A loopback soundcard");
 MODULE_LICENSE("GPL");
 MODULE_SUPPORTED_DEVICE("{{ALSA,Loopback soundcard}}");
 
+#define JUST_FOR_TEST
 #define MAX_PCM_SUBSTREAMS	8
 
 static int index[SNDRV_CARDS] = SNDRV_DEFAULT_IDX;	/* Index 0-MAX */
