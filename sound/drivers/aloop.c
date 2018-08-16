@@ -83,7 +83,7 @@ struct loopback_cable {
 
 struct loopback_setup {
 	unsigned int notify: 1;
-	unsigned int rate_shift;
+	unsigned int rate_shift
 	unsigned int format;
 	unsigned int rate;
 	unsigned int channels;
