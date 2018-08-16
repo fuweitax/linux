@@ -86,7 +86,7 @@ struct loopback_setup {
 	unsigned int rate_shift;
 	unsigned int format;
 	unsigned int rate;
-	unsigned int channels;
+	unsigned int channels
 	struct snd_ctl_elem_id active_id;
 	struct snd_ctl_elem_id format_id;
 	struct snd_ctl_elem_id rate_id;
