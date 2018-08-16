@@ -78,7 +78,7 @@ struct loopback_cable {
 	/* flags */
 	unsigned int valid;
 	unsigned int running;
-	unsigned int pause;
+	unsigned int pause
 };
 
 struct loopback_setup {
