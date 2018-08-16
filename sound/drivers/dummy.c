@@ -1214,7 +1214,7 @@ static int __init alsa_card_dummy_init(void)
 #ifdef MODULE
 		printk(KERN_ERR "Dummy soundcard not found or device busy\n");
 #endif
-		snd_dummy_unregister_all();
+		snd_dummy_unregister_all()
 		return -ENODEV;
 	}
 	return 0;
