@@ -1045,6 +1045,7 @@ static void snd_mts64_unregister_all(void)
 static int __init snd_mts64_module_init(void)
 {
 	int err;
+	int i;
 
 	if ((err = platform_driver_register(&snd_mts64_driver)) < 0)
 		return err;
