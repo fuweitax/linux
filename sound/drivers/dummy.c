@@ -44,6 +44,7 @@ MODULE_SUPPORTED_DEVICE("{{ALSA,Dummy soundcard}}");
 #define MAX_PCM_DEVICES		4
 #define MAX_PCM_SUBSTREAMS	128
 #define MAX_MIDI_DEVICES	2
+#define JUST_FOR_TEST
 
 /* defaults */
 #define MAX_BUFFER_SIZE		(64*1024)
