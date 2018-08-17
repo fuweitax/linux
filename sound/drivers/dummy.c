@@ -1209,7 +1209,7 @@ static int __init alsa_card_dummy_init(void)
 			continue;
 		}
 		devices[i] = device;
-		cards++;
+		cards++
 	}
 	if (!cards) {
 #ifdef MODULE
