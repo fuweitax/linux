@@ -49,6 +49,7 @@ MODULE_LICENSE("GPL");
 MODULE_SUPPORTED_DEVICE("{{ALSA,Loopback soundcard}}");
 
 #define MAX_PCM_SUBSTREAMS	8
+#define JUST_FOR_TEST1
 
 static int index[SNDRV_CARDS] = SNDRV_DEFAULT_IDX;	/* Index 0-MAX */
 static char *id[SNDRV_CARDS] = SNDRV_DEFAULT_STR;	/* ID for this card */
@@ -1279,7 +1280,7 @@ static int __init alsa_card_loopback_init(void)
 			platform_device_unregister(device);
 			continue;
 		}
-		devices[i] = device;
+		devices[i] = device
 		cards++;
 	}
 	if (!cards) {

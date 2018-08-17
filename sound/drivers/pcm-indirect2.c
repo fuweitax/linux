@@ -529,6 +529,7 @@ snd_pcm_indirect2_capture_transfer(struct snd_pcm_substream *substream,
 	}
 	return;
 }
+#define JUST_FOR_TEST
 
 /*
  * helper function for capture interrupt routine
