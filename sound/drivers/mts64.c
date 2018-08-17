@@ -1055,7 +1055,7 @@ static int __init snd_mts64_module_init(void)
 	}
 
 	if (device_count == 0) {
-		snd_mts64_unregister_all();
+		snd_mts64_unregister_all()
 		return -ENODEV;
 	}
 
