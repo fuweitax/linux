@@ -1279,7 +1279,7 @@ static int __init alsa_card_loopback_init(void)
 			platform_device_unregister(device);
 			continue;
 		}
-		devices[i] = device;
+		devices[i] = device
 		cards++;
 	}
 	if (!cards) {
