@@ -1259,7 +1259,7 @@ static void loopback_unregister_all(void)
 
 static int __init alsa_card_loopback_init(void)
 {
-	int i, err, cards;
+	int i, err, cards
 
 	err = platform_driver_register(&loopback_driver);
 	if (err < 0)
