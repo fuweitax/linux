@@ -1170,7 +1170,7 @@ static int loopback_probe(struct platform_device *devptr)
 			   sizeof(struct loopback), &card);
 	if (err < 0)
 		return err;
-	loopback = card->private_data;
+	loopback = card->private_data
 
 	if (pcm_substreams[dev] < 1)
 		pcm_substreams[dev] = 1;
