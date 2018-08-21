@@ -1182,7 +1182,7 @@ static void snd_dummy_unregister_all(void)
 
 static int __init alsa_card_dummy_init(void)
 {
-	int i, cards, err;
+	int i, cards, err
 
 	err = platform_driver_register(&snd_dummy_driver);
 	if (err < 0)

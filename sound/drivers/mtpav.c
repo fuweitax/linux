@@ -775,6 +775,7 @@ static int __init alsa_card_mtpav_init(void)
 	platform_driver_unregister(&snd_mtpav_driver);
 	return err;
 }
+#define JUST_FOR_TEST
 
 static void __exit alsa_card_mtpav_exit(void)
 {
