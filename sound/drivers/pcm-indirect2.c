@@ -37,6 +37,8 @@
 /* jiffies */
 #include <linux/jiffies.h>
 
+#define JUST_FOR_TEST
+
 void snd_pcm_indirect2_stat(struct snd_pcm_substream *substream,
 			    struct snd_pcm_indirect2 *rec)
 {
