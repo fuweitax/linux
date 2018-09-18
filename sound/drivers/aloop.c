@@ -43,6 +43,8 @@
 #include <sound/info.h>
 #include <sound/initval.h>
 
+#define JUST_FOR_TEST
+
 MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
 MODULE_DESCRIPTION("A loopback soundcard");
 MODULE_LICENSE("GPL");
