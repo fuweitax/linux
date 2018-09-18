@@ -30,6 +30,8 @@
 #include <sound/rawmidi.h>
 #include <sound/control.h>
 
+#define JUST_FOR_TEST
+
 #define CARD_NAME "Miditerminal 4140"
 #define DRIVER_NAME "MTS64"
 #define PLATFORM_DRIVER "snd_mts64"
