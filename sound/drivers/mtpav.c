@@ -76,6 +76,8 @@ MODULE_SUPPORTED_DEVICE("{{MOTU,MidiTimePiece AV multiport MIDI}}");
 #define MTPAV_IRQ		7
 #define MTPAV_MAX_PORTS		8
 
+#define JUST_FOR_TEST
+
 static int index = SNDRV_DEFAULT_IDX1;
 static char *id = SNDRV_DEFAULT_STR1;
 static long port = MTPAV_IOBASE;	/* 0x378, 0x278 */
